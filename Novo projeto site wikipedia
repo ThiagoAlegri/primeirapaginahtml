@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal  - Boxe</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+<style>
+    body, html {
+        margin: 0;
+        padding: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    ul { list-style: none; padding-left: 5px; }
+    a { color:blue; text-decoration: none;}
+    .bar {
+        background-color: #f9f9fb;
+        padding:15px;
+        border-top: solid 1px #cdcdcd;
+        border-bottom: solid 1px #cdcdcd;
+    }
+    .content {
+        max-width: 1440px;
+        margin: auto;
+        grid-gap: 3rem;
+        display: grid;
+        gap: 3rem;
+        grid-template-areas: "sidebar main anchors";
+        grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .footer {
+        min-height: 100px;
+        border-top: solid 1px #cdcdcd;
+    }
+    .anchors {
+        border-left: solid 1px #cdcdcd;
+        padding-left: 15px;
+    }
+    .sidebar {
+        border-right: solid 1px #cdcdcd;
+    }
+    figure {
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+<header>
+    <div>   
+        <div class="logo">
+            <img src="boxe-removebg-preview.png" width="230"/>
+        </div>
+    </div>
+</header>
+<main>
+    <div class="bar"></div>
+
+    <div class="content">
+        <div class="sidebar">
+            <h2>Outros Assunto</h2>
+            <ul>
+                <li><a href="http://127.0.0.1:5500/Boxe_franc%C3%AAs.html">Boxe francês</a></li><br>
+                <li><a href="#">Boxe tailandês</a></li><br>
+                <li><a href="#">Kickboxing </a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+        <h1 align="center">Boxe</h1>
+            <p>O boxe ou pugilismo é um esporte de combate e arte marcial, no qual os lutadores usam apenas os punhos, tanto para a defesa, quanto para o ataque. Boxeadores se trocam golpes por um tempo predeterminado em um número de rodadas (rounds ou assaltos) em uma arena elevada cercada de cordas, o Ringue. A vitória ocorre diante das seguintes possibilidades: quando um lutador aplica um nocaute no oponente, quando o árbitro declara um lutador incapaz de continuar (nocaute técnico) ou se nenhum lutador ganha e o tempo acaba, os juízes decidem o vencedor baseados em vários critérios de pontuação. Também há possibilidade de interrupção médica e de desistência por parte do lutador ou de sua equipe de apoio.</p>   
+            <p>O boxe é um esporte olímpico desde as Olimpíadas de 1904, e é um dos esportes profissionais mais populares no mundo. Com milhões de fãs e lutadores ao redor do planeta.</p>
+            <p>O esporte traça suas origens á antiga Mesopotâmia e Grécia Antiga, mas o esporte moderno tem como origem a Grã-Bretanha, onde se tornou popular nos séculos XVI e XVII e eventualmente foi codificado na forma atual em 1867 com a formulação das Regras de Queensberry.</p>
+            <P>A palavra deriva do inglês box (bater com os punhos) expressão utilizada na Inglaterra entre 1000 e 1850, e o termo pugilismo, derivado do Latim significando "lutador de punho", também é usado. O termo "boxe" também é um termo genérico para esportes de combate e arte marciais em que dois oponentes se enfrentam em uma luta usando os punhos, cobertos por luvas na maioria das vezes, e diferenciados de acordo com suas regras. Além do pugilismo, existem o Boxe francês, Boxe tailandês, Boxe chinês, Boxe birmanês, Kickboxing, dentre outros.</P>
+                <center>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Boxing080905_photoshop.jpg"  width="400" alt="Dois boxeadores lutando">
+                </center>
+            <hr>
+        
+        <h2 align="center" id="História do boxe">História do boxe</h2>
+            <p>A Suméria, um dos cinco berços da civilização, também é berço de quase tudo que hoje é dito ser "ocidental", incluindo o boxe cujas evidências mais antigas datam 3000 a.C. Mais tarde foi levado para o Egito e milênios depois para a Grécia, onde ficou conhecido como Pigmaquia.</p>
+            <p>Nos séculos XVIII e XIX, quando houve o renascimento na Inglaterra, o boxe era praticado com as mãos nuas. Essas lutas com as mãos descobertas eram frequentemente brutais, de modo que o boxe acabou sofrendo intensas mudanças em 1867, com a formulação das Regras do Marquês de Queensberry, que previam rounds de três minutos, separados por um intervalo de um minuto, além do uso obrigatório das luvas. Essas regras entraram em vigor em 1872.</p>
+            <p>O boxe foi primeiramente considerado um desporto olímpico em 688 a.C., na 23.ª olimpíada da antiguidade; seu vencedor foi Onomasto de Esmirna, que foi quem definiu as regras do esporte. Posteriormente, quando houve o ressurgimento dos Jogos Olímpicos da Era Moderna, nas Olimpíadas de 1896, em Atenas, o boxe não foi incluído como uma das modalidades da competição. O boxe então somente retornou nas Olimpíadas de 1904, a terceira da Era Moderna, em St. Louis, e desde então foi praticado em todas as suas edições posteriores, com exceção das Olimpíadas de 1912, em Estocolmo.</p>
+                <center>    
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Young_boxers_fresco%2C_Akrotiri%2C_Greece.jpg/800px-Young_boxers_fresco%2C_Akrotiri%2C_Greece.jpg" width="250" alt="Imagem dos primeiros boxeadores da historia, na epoca das piramides,">
+                </center>
+            <hr>
+
+        <h2 align="center" id="Golpes">Golpes</h2>
+            <ul>
+                <li><strong>Jab:</strong> Golpe reto com o punho que está à frente na guarda.</li>
+                <li><strong>Direto:</strong> Golpe reto com o punho que está após na guarda.</li>
+                <li><strong>Cruzado:</strong> Golpe desferido em movimento curvo do punho..</li>
+                <li><strong>Uppercut:</strong> Golpe desferido de baixo para cima visando atingir o queixo do oponente.</li>
+                <br>    <center>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Bundesarchiv_Bild_183-33464-0001%2C_Bruce_Wells%2C_Schatkow.jpg/250px-Bundesarchiv_Bild_183-33464-0001%2C_Bruce_Wells%2C_Schatkow.jpg" width="300" alt="lutador atingindo o outro lutador com um Cruzado (golpe movimentado pelo giro do quadril com o braço curvado)">
+                    </center>
+            </ul>
+        <hr>
+        <h2 align="center" id="Campeões do mundo">Campeões do mundo</h2>  
+            <p>Os campeões mundiais de boxe remontam até os primórdios de sua criação no século XVIII, na Inglaterra, quando o boxeador James Figg foi reconhecido como o primeiro campeão de boxe.</p> 
+            <p>Os campeões mundiais de boxe moderno foram divididos por categorias de peso, próximo ao final do século XIX, sendo que inicialmente os boxeadores encontravam-se distribuídos em apenas cinco categorias: peso-pesado, peso-médio, peso-leve, peso-pena e peso-galo. Mais tarde, ao longo do tempo, novas categorias de peso foram sendo acrescentadas.</p>
+            <p>	Posteriormente à criação das entidades mundiais de boxe, já durante o século XX, os campeões mundiais também passaram a ser divididos por diferentes cinturões mundiais.</p> 
+            <p>O boxe amador é disputado nas Olimpíadas desde 1904, com exceção à de 1912. Devido à proibição da modalidade no país-sede Suécia.</p>
+        <h3>Pugilistas famosos</h3>
+            <p>Os maiores de todos os tempos estão imortalizados no "Salão da Fama" de duas instituições reconhecidas internacionalmente. Entre tantos outros renomados pugilistas, o "Salão da Fama do Boxe" contempla nomes como os de Mike Tyson, Floyd Mayweather Jr., Rocky Marciano, Muhammad Ali, Floyd Patterson, Jack Johnson, Sugar Ray Robinson, Bob Satterfield, Jake LaMotta, Jersey Walcott, Joe Louis, Max Schmeling, Jack Dempsey, Max Baer, Larry Holmes, Joe Frazier, George Foreman, Sonny Liston, Ken Norton, Julio César Chávez, Lennox Lewis, Evander Holyfield.</p>
+            <p>Somente um pugilista brasileiro figura no "Salão da Fama" — Éder Jofre. No entanto, ao longo dos anos, outros pugilistas brasileiros também se tornaram notórios, tais como Servílio de Oliveira, José Adilson "Maguila" dos Santos, Miguel de Oliveira, Acelino "Popó" Freitas e Valdemir "Sertão" Pereira.</p>
+            <p>Portugal teve um pugilista profissional famoso nos anos 20/30 de nome José Soares Santa e alcunha de Santa Camarão (o Gigante de Ovar) . Em 1929 perdeu o título europeu para Pierre Charles. Combateu com os campeões Max Baer e Primo Carnera no Madison Square Garden, nos EUA, onde em 1931 chegou a vencer 31 combates seguidos. Ficou imortalizado no filme "Amor no Ringue" (Liebe im Ring), realizado por Reinhold Schuntzel, contracenando numa cena de pugilato com o actor principal, o famoso pugilista alemão Max Schmeling. Outro pugilista profissional de destaque foi Isidro de Pinto de Sã, que emigrou para os EU da América e foi o único português a lutar pela Título Mundial de pesos-galos. Fê-lo em Junho de 1926, frente ao italiano Fidel Labarda. Outras figuras de relevo no boxe lusitano foram Belarmino Fragoso, que inspirou a realização do filme Belarmino, de Fernando Lopes e João Miguel (Paquito), que conseguiu o apuramento para os Jogos Olímpicos, atingindo os oitavos de final. Outro nome sonante na modalidade lusa, principalmente como treinador e seleccionador nacional, foi Ricardo Ferraz.</p> 
+            <center>   
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/QSaeAJOLRO8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </center>
+        <hr>
+        </div>
+        <div class="anchors">
+            <h2>Neste Artigo</h2>
+            <ul>
+                <li><a href="#História do boxe"> História do boxe </a></li><br>
+                <li><a href="#Golpes">Golpes</a></li><br>
+                <li><a href="#Campeões do mundo">Campeões do mundo</a></li>
+            </ul>
+        </div>
+    </div>
+</main>
+<footer>
+    <div class="footer">
+
+    </div>
+</footer>
+</body>
+</html>
